@@ -1,19 +1,59 @@
-/* main {
-    box-sizing: border-box;
-} */
-
-/* main, aside {
-    float: left;
-} */
-
-/* #main-wrapper {
-
-    display: flex;
-    flex-direction: row;
-
-} */
-
-aside {
-    background: orange;
+body {    
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+#main-wrapper{
+    margin-right: 0;
+    padding-right: 0;
+}
+main{
+    background: #F06F01;
 }
 
+aside {
+    background: #F2984E;
+    padding-right: 0;
+    margin-right: 0;
+}
+p {
+    font-family: 'Roboto';
+    font-size: 12px;
+
+}
+
+.navbar-nav>li {
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+}
+.navbar>a {
+    padding-left:  5rem;
+    padding-right:  5rem;
+
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background: #726B72;
+
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+
+/* 
+#F2CE1E; Yellow
+#F5A205;  some orange
+#F06F01; deeper orange
+#F2984E; different color
+#0F0E0B; off black
+#726B72
+*/
