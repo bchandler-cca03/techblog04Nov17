@@ -50,7 +50,9 @@ p {
 main article a {
     color: white;
 }
-
+img {
+    max-width: 100%;
+}
 
 /* 
 #F2CE1E; Yellow
